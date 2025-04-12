@@ -37,22 +37,17 @@ The Blog Management System is a web application built using the Laravel framewor
 To set up the Blog Management System locally, follow these steps:
 
 1. **Clone the repository**:
-   git clone https://github.com/your-username/Blog-Management-System.git
-
+   git clone https://github.com/hiHarish/Blog-Management-System/
 
 2. Navigate into the project directory:
    cd Blog-Management-System
    Install dependencies:
     composer install
 
-3. Set up the environment:
-   Copy the .env.example file to .env and update the database credentials:
-   cp .env.example .env
-
-4.Run database migrations:
+3. Run database migrations:
 php artisan migrate
 
-5.Serve the application:
+4. Serve the application:
 php artisan serve
 Now, you can access the application at http://localhost:8000.
 
@@ -65,7 +60,7 @@ Contributions are welcome! If you have suggestions or improvements, please fork 
 
 Steps to Contribute:
 Fork the repository.
-Create a new branch (git checkout -b feature/YourFeature).
-Make your changes and commit them (git commit -m 'Add some feature').
-Push to the branch (git push origin feature/YourFeature).
+Create a new branch.
+Make your changes and commit them.
+Push to the branch.
 Open a pull request.
